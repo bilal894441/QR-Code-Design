@@ -9,23 +9,23 @@ body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container{
-    width:300px;
+    width: 300px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
     text-align: center;
 }
 
 .container img{
-    margin:auto;
+    margin: auto;
     margin-top: 5%;
-    width:90%;
+    width: 90%;
     display: block;
     border-radius: 10px;
 }
@@ -33,18 +33,18 @@ body{
 .container h1{
     margin: auto;
     margin-top: 8%;
-    width:85%;
+    width: 85%;
     color: hsl(218, 44%, 22%);
     font-size: 1.3rem;
     font-weight: 700;
 }
 
 .container p{
-    margin:auto;
+    margin: auto;
     margin-top: 5%;
-    margin-bottom: 34px;
+    margin-bottom: 12%;
     width:85%;
     font-size: 15px;
     font-weight: 400;
-    color:hsl(220, 15%, 55%);
+    color: hsl(220, 15%, 55%);
 }
